@@ -1,38 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>curriculo</title>
-    <link rel="stylesheet" href="style.css">
-    <img class="foto-perfil" src="assents/imagens/R.jpeg" alt="">
-</head>
-<body>
-        <section>
-        <h1>Leandro Santos</h1>
-</section>
-<section>
-    <h2>Informaçoes de contato</h2>
-    <ul>
-        <li>telefone:(11)9999-9999</li>
-        <li>Email:gato@gmail.com</li>
-        <li>Rua:Sebastiao Oliveira  n:20, Bairro: Canudos Pouso Alegre-MG</li>
-    </ul>
-</section>
-<section>
-    <h2>Informaçoes Pessoais</h2>
-    <section>
-        <ul>
-        <li>sexo:Masculino</li>
-        <li> idade:20 anos</li>
-        <li>Estado civil:Solteiro</li>
-    </ul>
-    </section>
-        
-</section>
-
-
+    <title>Cadastro geral</title>
     
+</head>
+<body> 
+    <form action="" method="get">Cadastre Seus Dados
+    <fieldset>
+        <legend>
+         Preencha os Campos 
+        </legend>
+        <fieldset>
+            <label for="text">nome</label>
+            <input type="text" name="text" id="text">
+            <label for="email">email</label>
+            <input type="email" name="eamil" id="email">
+            <label for="date">DatadeNascimento</label>
+            <input type="date" name="date" id="date">
+            <label for="text">OndevoceMora</label>
+        </fieldset>
+        <fieldset>
+            <legend>filhos</legend>
+            <label for="radio">1</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">2</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">3</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">Maisde3</label>
+            <input type="radio" name="radio" id="radio">
+        </fieldset>
+        <fieldset>
+         <legend>Estado Civil</legend>
+         <label for="radio">Solteiro(a)</label>
+         <input type="radio" name="radio" id="radeio">
+         <label for="radio">Casado(a)</label>
+         <input type="radio" name="radio" id="radio">
+        </fieldset>
+        <fieldset>
+          <legend>tem disponiblidade de horario</legend>
+          <label for="radio">sim</label>
+          <input type="radio" name="radio" id="radio">
+          <label for="radio">Nao</label>
+          <input type="radio" name="radio" id="radio">
+          
+          <fieldset>
+            <legend>tem disponiladade nos finais de semana</legend>
+            <label for="radio">sim</label>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">Nao</label>
+            <input type="radio" name="radio" id="radio">
+          </fieldset>
+          <fieldset>
+            <legend>Tem Prferencia de Horario de Trabalho</legend>
+            <label for="check">manha</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="check">tarde</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="check">Noite</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+          </fieldset>
+
+          
+          
+            
+        
+        
+        </fieldset>
+        
+        
+
+    </fieldset>
+    
+
 </body>
 </html>
